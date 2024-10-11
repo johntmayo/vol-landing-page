@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,9 +44,10 @@ body {
 
 /* Subheader styling */
 .subheader {
-    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
     margin-bottom: 30px;
-    color: #EA3444;
+    color: #264351;
 }
 
 /* Flexbox for buttons and explainer text */
@@ -59,6 +60,7 @@ body {
 }
 
 .button {
+    font-family: 'Roboto', sans-serif;
     flex: 1;
     max-width: 250px;
     padding: 15px;
@@ -73,7 +75,7 @@ body {
 }
 
 .button:hover {
-    background-color: #345C83;
+    background-color: #369CFB;
 }
 
 /* Explainer text next to the buttons */
@@ -95,6 +97,15 @@ body {
     font-weight: 500;
 }
 
+.logo {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.logo img {
+    width: 120px; /* Adjust the size as needed */
+}
+
 /* Footer disclaimer */
 .footer-disclaimer {
     font-size: 12px;
@@ -114,6 +125,7 @@ body {
     .button {
         margin-bottom: 10px;
         max-width: 100%;
+		width: 60%;
     }
 
     .explainer-text {
